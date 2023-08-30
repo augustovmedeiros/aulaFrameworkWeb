@@ -1,0 +1,82 @@
+body, h1, h2, h3, h4, h5, h6, p, button, input {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabecalhos {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-text {
+    margin: 10px 0;
+    font-size: 24px;
+    display: none;
+}
+
+.idade {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.idade-infos {
+    margin: 10px;
+}
+
+#idade-text {
+    padding: 5px;
+}
+
+.maior, .menor {
+    font-size: 24px;
+    display: none;
+}
+
+.maior{
+    color: rgb(33, 220, 33);
+}
+
+.menor{
+    color: rgb(220, 33, 33);
+}
+
+.dados {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.dados-infos {
+    margin: 10px;
+}
+
+#dado-text {
+    padding: 5px;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
